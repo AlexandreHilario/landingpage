@@ -1,21 +1,21 @@
-import logo from './logo.svg';
+import minhaImagem from './Assests/capa.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={minhaImagem} className="App-logo" alt="capa" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hollow Knight o melhor game já feito
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://store.steampowered.com/app/367520/Hollow_Knight/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Jogue Agora
         </a>
       </header>
     </div>
