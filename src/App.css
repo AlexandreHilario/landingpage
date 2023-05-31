@@ -154,3 +154,25 @@
 
   color: #FFFFFF;
 }
+
+.buttom1 {
+  position: absolute;
+  width: 650px;
+  height: 80px;
+  left: 978px;
+  top: calc(755px + 120%);
+  background: #8BAEC7;
+  border-radius: 50px;
+}
+
+.link1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 35px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/*estilização da section 3*/
