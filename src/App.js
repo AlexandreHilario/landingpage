@@ -16,8 +16,8 @@ function App() {
           <li>Contact</li>
         </ul>
       </header>
-      <div class='main'>
-        <img class='backgroud-main' src={imageBackground} alt='imagem background'/>
+      <section class='section1'>
+        <img class='background-main' src={imageBackground} alt='imagem background'/>
         <img class='main-title' src={titulo} alt='imagem titulo'/>
         <p class='apresentation'>
           A Team Cherry é um pequeno estúdio de desenvolvimento de jogos independentes sediado em Adelaide, na Austrália.
@@ -25,7 +25,21 @@ function App() {
           estúdio ganhou reconhecimento mundial com o lançamento do aclamado jogo Hollow Knight em 2017. 
           Esse hub foi feito na intenção de trazer notícias e algumas reviews sobre a Team Cherry.</p>
 
-      </div>
+      </section>
+      <section class='section2'>
+      <iframe 
+        class="trailer-one"
+        title="trailer silksong"
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/yQxwbZsL14Y" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+
+
+      </section>
 
     </div>
   );
