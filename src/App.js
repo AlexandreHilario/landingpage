@@ -41,10 +41,10 @@ function App() {
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen>
         </iframe>
-        <p class="comments">Até a data de corte em setembro de 2021, Hollow Knight: Silksong ainda não havia sido lançado. Desde o anúncio oficial
+        <p class="comments1">Até a data de corte em setembro de 2021, Hollow Knight: Silksong ainda não havia sido lançado. Desde o anúncio oficial
            do jogo em fevereiro de 2019, a Team Cherry tem trabalhado no desenvolvimento do Silksong. No final de 2022, foi vazado 
            que no primeiro semestre de 2023, o game seria lançado, mas em maio, um dos desenvolvedores publicou no seu twitter que
-           o game seria adiado novamente e apenas teriamos alguma notícia perto do seu lançamento oficial.<br></br>Única coisa que 
+           o game seria adiado novamente e apenas teriamos alguma notícia perto do seu lançamento oficial.<br></br><br></br>Única coisa que 
            temos é a gameplay e seu trailer. A nova protagonista que aparece no game anterior, a Honert, ira nos acompanhar na nova 
            aventura em Hallownest, com novos inimigos, novos segredos e uma nova narrativa.</p>
       </section>

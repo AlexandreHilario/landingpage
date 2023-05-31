@@ -133,3 +133,24 @@
   left: 96px;
   top: 224px;
 }
+
+.comments1 {
+  padding-top: 1060px;
+  position: absolute;
+  width: 1050px;
+  height: 280px;
+  left: 772px;
+  top: 224px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 35px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
