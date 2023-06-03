@@ -138,7 +138,7 @@ function App() {
             ><FaInstagramSquare /></a>
             <a 
               class="icon_github"
-              href='https://www.github.com/hil4ri0/'
+              href='https://github.com/AlexandreHilario'
               target='_blank'
               rel='noreferrer'
             ><FaGithub /></a>
