@@ -12,6 +12,11 @@
   pointer-events: none;
 }
 
+a {
+  text-decoration: none;
+  color: #8BAEC7;
+}
+
 /* Estilização do Header */
 
 .Card-header {

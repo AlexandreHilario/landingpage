@@ -3,22 +3,45 @@ import imageBackground from './Assests/maxresdefault.jpg'
 import titulo from './Assests/pngegg.png'
 import './App.css';
 import { FaInstagramSquare, FaGithub, FaTwitter } from 'react-icons/fa';
+import React, {useState} from 'react';
 
 function App() {
+  
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+
+  const handleConfirmClick = () => {
+    if (!validateEmail(email)) {
+      alert('Por favor, insira um endereço de e-mail válido.');
+      setEmail('');
+      return;
+    }
+
+    alert('Cadastro Concluído');
+    setName('');
+    setEmail('');
+
+  };
+  
+  const validateEmail = (email) => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  };
+
   return (
     <div className="App">
 
       <header class='Card-header'>
         <img class='Icon' src={logo} alt='Logo' />
-        <h1 class='title'>TEAM CHERRY HUB</h1>
+        <h1 class='title'><a href='#home'>TEAM CHERRY HUB</a></h1>
         <ul class='list'>
-          <li>News</li>
-          <li>Reviews</li>
-          <li>Contact</li>
+          <li><a href='#news'>News</a></li>
+          <li><a href='#reviews'>Reviews</a></li>
+          <li><a href='#contact'>Contact</a></li>
         </ul>
       </header>
 
-      <section class='section1'>
+      <section id="home"class='section1'>
         <img class='background-main' src={imageBackground} alt='imagem background' />
         <div class="title-container">
           <img class='main-title' src={titulo} alt='imagem titulo' />
@@ -32,7 +55,7 @@ function App() {
         </p>
       </section>
 
-      <section class='section2'>
+      <section id="news" class='section2'>
         <iframe
           class="trailer-one"
           title="trailer silksong"
@@ -63,7 +86,7 @@ function App() {
         </div>
       </section>
 
-      <section class="section3">
+      <section id="reviews" class="section3">
         <iframe
           class="trailer-two"
           title="trailer silksong"
@@ -93,17 +116,17 @@ function App() {
         </div>
       </section>
 
-      <section class="section4">
+      <section id="contact" class="section4">
         <div class="box">
           <p class="questions">
             Caso desejar receber mais informações sobre tudo o que está acontecendo na Team Chey, cadastre-se
           </p>
           <div class="register">
             <label for="fname">Nome:</label>
-            <input type="text" id="fname" name="fname" /><br></br>
+            <input type="text" id="fname" name="fname" value={name} onChange={(e) => setName(e.target.value)}/><br></br>
             <label for="lname">Email:</label>
-            <input type="email" id="lname" name="lname" /><br></br>
-            <input type="submit" value="Comfirmar" />
+            <input type="email" id="lname" name="lname" value={email} onChange={(e) => setEmail(e.target.value)} /><br></br>
+            <input type="submit" value="Comfirmar" onClick={handleConfirmClick} />
           </div>
 
           <footer class="informations">
