@@ -12,7 +12,7 @@
   pointer-events: none;
 }
 
-/*estilização do Header*/
+/* Estilização do Header */
 
 .Card-header {
   height: 150px;
@@ -22,10 +22,10 @@
   align-items: center;
   justify-content: center;
   background-color: #0F1523;
-  width: 100%; 
-  padding: 0 20px; 
+  width: 100%;
+  padding: 0 20px;
   box-sizing: border-box;
-  z-index: 999;  
+  z-index: 999;
 }
 
 .Icon {
@@ -38,7 +38,7 @@
   width: 34vh;
   height: 4vh;
   font-size: 3vh;
-  font-family: 'inter';
+  font-family: 'Inter';
   color: #8BAEC7;
   white-space: nowrap;
   margin-left: 20px;
@@ -46,7 +46,7 @@
 
 .list {
   display: flex;
-  width: 100%; 
+  width: 100%;
   height: 3vh;
   align-items: center;
   justify-content: flex-end;
@@ -60,7 +60,7 @@
   margin-left: 50px;
 }
 
-/* estilização da section1*/
+/* Estilização da section1 */
 
 .section1 {
   height: 100vh;
@@ -68,12 +68,13 @@
   justify-content: center;
   flex-direction: column;
   display: flex;
-  
+  margin-bottom: 0;
+  background-color: #17213C;
 }
 
-.background-main{
+.background-main {
   width: 100%;
-  height: 930px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,95 +85,101 @@
   margin-bottom: 20px;
 }
 
-.main-title{
+.main-title {
   transform: translate(-50%, -50%);
   top: calc(50% - 368px);
   left: 50%;
   position: absolute;
-  width: 800px;
-  height: 300px;
+  width: 80%;
+  max-width: 800px;
+  height: 40vh;
   background-position: center;
   background-size: cover;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
   padding-top: 450px;
 }
 
-.apresentation{
+.apresentation {
   top: calc(50% - 34px);
   left: 50%;
   position: absolute;
-  width: 800px;
-  height: 336px;
+  width: 80%;
+  max-width: 800px;
+  height: 40vh;
   transform: translate(-50%, -50%);
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 35px;
-  line-height: 30px;
+  font-size: 3vh;
+  line-height: 1.2;
   padding-top: 400px;
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #D9D9D9;
 }
 
-/*estilização secsion2*/
-
-.section2 {
-  width: 1920px;
-  height: 1080px;
+/* Estilização da section2 e section3 */
+.section2,
+.section3 {
+  width: 100%;
+  height: auto;
   background: #17213C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.trailer-one {
-  position: absolute;
-  padding-top: 1000px;
-  width: 600px;
-  height: 300px;
-  left: 96px;
-  top: 224px;
+.trailer-one,
+.trailer-two {
+  width: 80%;
+  max-width: 960px;
+  height: 540px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
-.comments1 {
-  padding-top: 1060px;
-  position: absolute;
-  width: 1050px;
-  height: 280px;
-  left: 772px;
-  top: 224px;
-
+.comments1,
+.comments2 {
+  width: 80%;
+  max-width: 1050px;
+  height: auto;
+  margin-left: 20px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 35px;
-  line-height: 35px;
-
+  font-size: 3vh;
+  line-height: 1.2;
   display: flex;
   align-items: center;
   text-align: center;
-
   color: #FFFFFF;
+  margin-bottom: 5vh;
 }
 
-.buttom1 {
-  position: absolute;
-  width: 650px;
-  height: 80px;
-  left: 978px;
-  top: calc(755px + 120%);
+.buttom1,
+.buttom2 {
+  width: 80%;
+  max-width: 650px;
+  height: 8vh;
+  margin-top: 3vh;
   background: #8BAEC7;
   border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5vh;
 }
 
-.link1{
+.link1,
+.link2 {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 300;
-  font-size: 35px;
-  line-height: 35px;
+  font-size: 3vh;
+  line-height: 1.2;
   color: #000000;
   text-decoration: none;
 }
-
-/*estilização da section 3*/

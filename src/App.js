@@ -2,6 +2,7 @@ import logo from './Assests/SS_Cover_Art.webp';
 import imageBackground from './Assests/maxresdefault.jpg'
 import titulo from './Assests/pngegg.png'
 import './App.css';
+import { FaInstagramSquare, FaGithub, FaTwitter } from 'react-icons/fa';
 
 function App() {
   return (
@@ -44,19 +45,19 @@ function App() {
         </iframe>
 
         <p class="comments1">
-           Até a data de corte em setembro de 2021, Hollow Knight: Silksong ainda não havia sido lançado. Desde o anúncio oficial
-           do jogo em fevereiro de 2019, a Team Cherry tem trabalhado no desenvolvimento do Silksong. No final de 2022, foi vazado 
-           que no primeiro semestre de 2023, o game seria lançado, mas em maio, um dos desenvolvedores publicou no seu twitter que
-           o game seria adiado novamente e apenas teriamos alguma notícia perto do seu lançamento oficial.<br></br><br></br>Única coisa que 
-           temos é a gameplay e seu trailer. A nova protagonista que aparece no game anterior, a Honert, ira nos acompanhar na nova 
-           aventura em Hallownest, com novos inimigos, novos segredos e uma nova narrativa.
+          Até a data de corte em setembro de 2021, Hollow Knight: Silksong ainda não havia sido lançado. Desde o anúncio oficial
+          do jogo em fevereiro de 2019, a Team Cherry tem trabalhado no desenvolvimento do Silksong. No final de 2022, foi vazado
+          que no primeiro semestre de 2023, o game seria lançado, mas em maio, um dos desenvolvedores publicou no seu twitter que
+          o game seria adiado novamente e apenas teriamos alguma notícia perto do seu lançamento oficial.<br></br><br></br>Única coisa que
+          temos é a gameplay e seu trailer. A nova protagonista que aparece no game anterior, a Honert, ira nos acompanhar na nova
+          aventura em Hallownest, com novos inimigos, novos segredos e uma nova narrativa.
         </p>
 
         <div class="buttom1">
           <a href='https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/'
-             target='_blank'
-             rel="noreferrer"
-             class="link1">
+            target='_blank'
+            rel="noreferrer"
+            class="link1">
             LINK PARA ADICIONAR NA STEAM
           </a>
         </div>
@@ -74,22 +75,60 @@ function App() {
           allowfullscreen>
         </iframe>
 
-        <p class="comments2">Hollow Knight é um jogo de plataforma e aventura que transporta os jogadores para um mundo sombrio 
-        e misterioso, onde assumem o papel de um pequeno cavaleiro em busca de respostas e aventuras em um reino em ruínas chamado 
-        Hallownest. Com uma narrativa envolvente, jogabilidade desafiadora, personagens fascinantes, exploração meticulosa, belo 
-        design de arte e uma atmosfera única, o jogo oferece uma experiência memorável que cativa os jogadores desde o seu 
-        lançamento em 2017.<br></br><br></br>Ao jogarmos, assumimos o controle sobre um pequeno guerreiro sem nome, que visita a cidade 
-        de Hallownets e descobrimos os seus terríveis segredos, enquanto exploramos e adquirimos habilidades novas.
+        <p class="comments2">Hollow Knight é um jogo de plataforma e aventura que transporta os jogadores para um mundo sombrio
+          e misterioso, onde assumem o papel de um pequeno cavaleiro em busca de respostas e aventuras em um reino em ruínas chamado
+          Hallownest. Com uma narrativa envolvente, jogabilidade desafiadora, personagens fascinantes, exploração meticulosa, belo
+          design de arte e uma atmosfera única, o jogo oferece uma experiência memorável que cativa os jogadores desde o seu
+          lançamento em 2017.<br></br><br></br>Ao jogarmos, assumimos o controle sobre um pequeno guerreiro sem nome, que visita a cidade
+          de Hallownets e descobrimos os seus terríveis segredos, enquanto exploramos e adquirimos habilidades novas.
         </p>
 
         <div class="buttom2">
           <a href='https://store.steampowered.com/app/367520/Hollow_Knight/'
-             target='_blank'
-             rel="noreferrer"
-             class="link2">
-            LINK PARA ADICIONAR NA STEAM
+            target='_blank'
+            rel="noreferrer"
+            class="link2">
+            LINK PARA JOGAR NA STEAM
           </a>
         </div>
+      </section>
+
+      <section class="section4">
+        <div class="box">
+          <p class="questions">
+            Caso desejar receber mais informações sobre tudo o que está acontecendo na Team Chey, cadastre-se
+          </p>
+          <div class="register">
+            <label for="fname">Nome:</label>
+            <input type="text" id="fname" name="fname" /><br></br>
+            <label for="lname">Email:</label>
+            <input type="email" id="lname" name="lname" /><br></br>
+            <input type="submit" value="Comfirmar" />
+          </div>
+
+          <footer class="informations">
+            <a 
+              class="icon_instagram"
+              href='https://www.instagram.com/hil4ri0/'
+              target='_blank'
+              rel='noreferrer'
+            ><FaInstagramSquare /></a>
+            <a 
+              class="icon_github"
+              href='https://www.github.com/hil4ri0/'
+              target='_blank'
+              rel='noreferrer'
+            ><FaGithub /></a>
+            <a 
+              class="icon_twitter"
+              href='https://twitter.com/TeamCherryGames'
+              target='_blank'
+              rel='noreferrer'
+            ><FaTwitter /></a>
+
+          </footer>
+        </div>
+
       </section>
 
     </div>
