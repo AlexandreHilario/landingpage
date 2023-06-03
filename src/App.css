@@ -183,3 +183,82 @@
   color: #000000;
   text-decoration: none;
 }
+
+/* Estilização da section 4 */
+.section4 {
+  width: 100%;
+  height: auto;
+  background: #17213C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 90%;
+  max-width: 1280px; 
+  height: auto;
+  background: #5F6D93;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 20px; 
+  margin-bottom: 50px;
+}
+
+.questions {
+  color: #FFFFFF;
+  font-size: 3vh;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.register {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  background-color: #505B7B;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 10px; 
+}
+
+label {
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3vh;
+  margin-bottom: 10px; 
+}
+
+input {
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3vh;
+  margin-bottom: 10px;
+}
+
+.icon_instagram,
+.icon_github,
+.icon_twitter {
+  font-size: 5vh; 
+  color: #8BAEC7;
+  margin-bottom: 10px;
+}
+
+.icon_instagram:not(:last-child),
+.icon_github:not(:last-child),
+.icon_twitter:not(:last-child) {
+  margin-right: 25px;
+}
