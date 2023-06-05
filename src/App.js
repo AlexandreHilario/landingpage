@@ -148,7 +148,9 @@ function App() {
               target='_blank'
               rel='noreferrer'
             ><FaTwitter /></a>
-
+            <p class="copyright">
+             © Copyright, Alexandre Vitor
+            </p>
           </footer>
         </div>
 

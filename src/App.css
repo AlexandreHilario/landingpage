@@ -267,3 +267,9 @@ input {
 .icon_twitter:not(:last-child) {
   margin-right: 25px;
 }
+
+.copyright {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-family: 'Inter';
+}
